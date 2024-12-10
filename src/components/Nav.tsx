@@ -2,9 +2,9 @@
   import { Link } from 'react-router-dom';
 
   const Nav = () => 
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/SavedCandidates">Saved Candidates</Link>
-      </div>
+      <nav className='nav'>
+        <Link className='nav-link' id='homeLink' to="/">Home</Link>
+        <Link className='nav-link' id='savedLink' to="/SavedCandidates">Saved Candidates</Link>
+      </nav>
 
 export default Nav;

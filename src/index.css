@@ -32,10 +32,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
-  margin: 0;
+  /* margin: 0;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -98,6 +98,8 @@ tbody tr:nth-child(odd) {
   display: flex;
   justify-content: flex-start;
   padding: 1em 2em;
+  margin-left: 0;
+  width: 100%;
 }
 
 .nav-item {
@@ -108,6 +110,11 @@ tbody tr:nth-child(odd) {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+#homeLink {
+  margin-right: 20px;
+  font-weight: 900;
 }
 
 .active {
