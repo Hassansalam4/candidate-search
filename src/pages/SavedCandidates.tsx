@@ -1,12 +1,11 @@
+import React, { useState } from 'react';
+
+import CandidateCard from '../components/CandidateCard';
+import CandidateList from '../components/CandidateList';
+
 
 const SavedCandidates = () => {
 
-  import React, { useState } from 'react';
-import { candidates } from '../data';
-import CandidateCard from './CandidateCard';
-import CandidateList from './CandidateList';
-
-const App = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [savedCandidates, setSavedCandidates] = useState([]);
 
@@ -35,13 +34,5 @@ const App = () => {
     );
 };
 
-export default App;
-  
-  return (
-    <>
-      <h1>Potential Candidates</h1>
-    </>
-  );
-};
 
 export default SavedCandidates;
